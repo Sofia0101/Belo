@@ -1,2 +1,2 @@
 # Belo
-This is a copy of Belo's web
+This is a copy of Belo's page
