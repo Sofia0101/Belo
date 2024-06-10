@@ -1,2 +1,9 @@
 # Belo
-This is a copy of Belo's page
+This is a copy of _``Belo's``_ page!
+:tada:
+
+----
+----
+
+
+
