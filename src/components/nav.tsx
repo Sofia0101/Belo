@@ -15,13 +15,10 @@ export default function Nav() {
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
+            xmlns="http://www.w3.org/2000/svg"><path
               fill-rule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
+              clip-rule="evenodd"></path>
           </svg>
         </button>
 
@@ -51,7 +48,7 @@ export default function Nav() {
               </svg>
             </button>
           </div>
-          <ul className="font-normal flex flex-col py-8 mt-2 gap-y-4 text-white text-sm md:flex-row md:space-x-20 md:mt-0 md:py-3 md:items-center text-white">
+          <ul className="font-normal flex flex-col py-8 mt-2 gap-y-4 text-white text-sm md:flex-row md:space-x-20 md:mt-0 md:py-3 md:items-center">
             <li className="hidden relative group md:flex">
               <button className="font-normal hover:font-bold">
                 ¿Por qué belo?
@@ -95,7 +92,7 @@ export default function Nav() {
               </a>
             </li>
             <li className="hidden md:block">
-              <button type="button" className="css-b5ujjc e1eku1040">
+              <button type="button" className="block w-full rounded-lg border border-solid border-opacity-100 border-black bg-opacity-100 bg-[#00ffa8] pl-6 pr-6 pb-2.5 pt-2.5 text-[0.875rem] leading-5 font-bold text-opacity-100	text-black cursor-pointer">
                 Descargá la app
               </button>
             </li>
