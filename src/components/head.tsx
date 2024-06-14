@@ -6,7 +6,6 @@ import Qr from "../../public/img/qr.png";
 
 export default function Head() {
   return (
-    <div className="container mx-auto max-w-screen-lg pt-20">
       <div className="flex flex-col justify-around items-center md:flex-row-reverse px-2 md:px-4 lg:px-0">
         <div className="flex items-center ">
           <Image
@@ -74,7 +73,6 @@ export default function Head() {
                     className=""
                   />
                 </div>
-              </div>
             </div>
           </div>
         </div>
