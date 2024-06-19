@@ -3,6 +3,7 @@ import Nav from "@/components/nav";
 import Head from "@/components/head";
 import Cards from "@/components/cards";
 import Steps from "@/components/steps";
+import Planet from "@/components/planet";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Head />
         <Cards />
         <Steps />
+        <Planet/>
 
       </div>
     </section>
