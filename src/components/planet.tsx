@@ -5,7 +5,7 @@ export default function Planet() {
   return (
     <div className="flex flex-col justify-between items-center my-10 pb-6 md:flex-row md:mb-36">
       <div className="flex  px-4">
-        <Image src={Planetimg} alt="planet" width={533} height={533.33} />
+        <Image src={Planetimg} alt="planet" width={1128} height={1024} />
       </div>
 
       <div className="flex flex-col justify-center text-center mt-10">

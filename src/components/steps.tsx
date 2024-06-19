@@ -17,7 +17,6 @@ export default function Steps() {
         </a>
       </div>
 
-
       <div className="flex flex-col pt-4 pb-10 relative">
         <div className="flex justify-center items-center px-20">
           <h2
@@ -28,18 +27,10 @@ export default function Steps() {
           </h2>
         </div>
 
-
-
-
-
         {/* <div className="hidden lg:block 
         after:border-dashed after:border-[2.12px] after:absolute after:w-[630px] left-[25%] top-[71%] h-[0] dash-content-x"></div>
         <div className="md:hidden dash-content-y after:content-[*] after:border-[##00ffb2]
         after:border-dashed after:border-[2.12px] after:absolute after:w-[0] left-[50%] top-[30%] h-[400px]"></div> */}
-
-
-
-
 
         <div className="flex flex-col px-20 mt-14 gap-y-5 md:flex-row md:px-11 md:gap-y-0 md:gap-x-24 relative ">
           <div className="flex flex-1 items-center relative rounded-xl border bg-[#280066] border-[#00FFB2]">
@@ -57,9 +48,6 @@ export default function Steps() {
             </p>
           </div>
 
-
-
-
           <div className="flex flex-1 items-center relative rounded-xl border bg-[#280066] border-[#00FFB2]">
             <div className="absolute h-full -left-4">
               <Image
@@ -75,8 +63,6 @@ export default function Steps() {
               exterior
             </p>
           </div>
-
-
 
           <div className="flex flex-1 items-center relative rounded-xl border bg-[#280066] border-[#00FFB2]">
             <div className="absolute h-full -left-4">
