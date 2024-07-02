@@ -5,6 +5,7 @@ import Cards from "@/components/cards";
 import Steps from "@/components/steps";
 import Planet from "@/components/planet";
 import Crypto from "@/components/crypto";
+import Mastercard from "@/components/mastercard";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <Steps />
         <Planet />
         <Crypto />
+        <Mastercard />
+
       </div>
         
       
