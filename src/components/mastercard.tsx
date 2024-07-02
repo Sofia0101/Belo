@@ -24,7 +24,7 @@ export default function Mastercard() {
         </div>
 
         <div className="hidden md:flex md:justify-end md:w-full md:mt-2">
-            <div className="bg-[#4E0AB4] w-[262px] h-[115px] flex items-center justify-en rounded-xl pt-2.5 pb-2.5 ">
+            <div className="bg-[#4E0AB4] w-[262px] h-[115px] flex items-center justify-around rounded-xl pt-2.5 pb-2.5 ">
               <div className="flex flex-col gap-y-2 items-center">
                 <a
                   href="https://play.google.com/store/apps/details?id=com.belo.android"
