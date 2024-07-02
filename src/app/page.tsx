@@ -8,6 +8,9 @@ import Crypto from "@/components/crypto";
 import Mastercard from "@/components/mastercard";
 import Bitrefill from "@/components/bitrefill";
 import Discounts from "@/components/discounts";
+import Questions from "@/components/questions";
+
+
 
 export default function Home() {
   return (
@@ -15,7 +18,7 @@ export default function Home() {
     
       <Nav />
 
-      <div className="pt-20">
+      <div className="pt-20 container mx-auto max-w-screen-lg">
         <Head />
         <Cards />
         <Steps />
@@ -24,6 +27,8 @@ export default function Home() {
         <Mastercard />
         <Bitrefill />
         <Discounts />
+        {/* <Questions /> */}
+
 
 
 
