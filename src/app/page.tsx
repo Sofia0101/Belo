@@ -7,6 +7,7 @@ import Planet from "@/components/planet";
 import Crypto from "@/components/crypto";
 import Mastercard from "@/components/mastercard";
 import Bitrefill from "@/components/bitrefill";
+import Discounts from "@/components/discounts";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         <Crypto />
         <Mastercard />
         <Bitrefill />
+        <Discounts />
+
 
 
       </div>
