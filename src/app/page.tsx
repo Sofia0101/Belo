@@ -6,23 +6,27 @@ import Steps from "@/components/steps";
 import Planet from "@/components/planet";
 import Crypto from "@/components/crypto";
 import Mastercard from "@/components/mastercard";
+import Bitrefill from "@/components/bitrefill";
 
 export default function Home() {
   return (
-    <section className="relative bg-[#6E00FF]">
+    <div className="bg-[#6E00FF]">
+    
       <Nav />
 
-      <div className="container mx-auto max-w-screen-lg pt-20">
+      <div className="pt-20">
         <Head />
         <Cards />
         <Steps />
         <Planet />
         <Crypto />
         <Mastercard />
+        <Bitrefill />
+
 
       </div>
         
       
-    </section>
+    </div>
   );
 }

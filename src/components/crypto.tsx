@@ -28,7 +28,7 @@ export default function Crypto() {
         </div>
       </div>
 
-      <div className="flex z-10 mb-16 md:mb-0 ">
+      <div className="flex mb-16 md:mb-0 ">
         <Image src={Belotag} width={372} height={372} alt="Belotag" />
       </div>
     </div>
