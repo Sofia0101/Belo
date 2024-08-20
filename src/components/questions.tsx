@@ -52,7 +52,7 @@ export default function Questions() {
             <div className="App">
               {isOpen && <Dropdown />}
 
-              <button onClick={toggle}>Botoncito</button>
+              <button onClick={toggle}>bt</button>
             </div>
           </div>
         </div>
