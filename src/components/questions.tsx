@@ -35,8 +35,9 @@ export default function Questions() {
               <span className="text-left flex-1">
                 ¿Cómo crear una cuenta para menores de 18 años?
               </span>
+          
               <div className="7 h-[25px] w-[25px]">
-                <svg
+                <svg  onClick={toggle}
                   className="w-full h-full rotate-90"
                   viewBox="0 0 10 17"
                   fill="none"
@@ -47,14 +48,14 @@ export default function Questions() {
                     fill="#00FFB2"
                   ></path>
                 </svg>
-              </div>
-            </div>
-            <div className="App">
-              {isOpen && <Dropdown />}
 
-              <button onClick={toggle}>bt</button>
+              </div>
+             
             </div>
+            {isOpen && <Dropdown />}
+
           </div>
+          <div className="flex flex-col w-full cursor-pointer"></div>
         </div>
       </div>
     </div>
