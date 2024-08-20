@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Logo from "../../public/img/logo.png";
 import Smile from "../../public/img/logo-business.png";
@@ -139,3 +141,5 @@ export default function Nav() {
     </nav>
   );
 }
+
+

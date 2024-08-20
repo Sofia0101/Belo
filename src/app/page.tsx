@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import Nav from "@/components/nav";
 import Head from "@/components/head";
@@ -27,7 +29,8 @@ export default function Home() {
         <Mastercard />
         <Bitrefill />
         <Discounts />
-        {/* <Questions /> */}
+        <Questions />
+
 
 
 
